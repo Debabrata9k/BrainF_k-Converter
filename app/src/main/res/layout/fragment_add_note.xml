@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CEF7FF"
+    android:padding="20dp">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+
+        <EditText
+            android:id="@+id/editTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/title"
+            android:textColor="#000000"
+            android:background="@drawable/edit_text_bg"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:padding="10dp" />
+
+
+        <EditText
+            android:id="@+id/editContent"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:gravity="top"
+            android:hint="@string/write_your_note_here"
+            android:background="@drawable/edit_text_bg"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:padding="10dp"
+            android:layout_marginTop="15dp"
+            android:textSize="16sp" />
+
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/save_note"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#0028FF"
+            android:textColor="#fff" />
+
+
+    </LinearLayout>
+
+
+</ScrollView>

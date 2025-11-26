@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">BrainF_k Converter</string>
+    <string name="header_image">Header Image</string>
+    <string name="openDrawer">Open navigation drawer</string>
+    <string name="closeDrawer">Close navigation drawer</string>
+    <string name="hello_wellcome_mr_debabrata">BrainFuck Converter</string>
+    <string name="this_is_navigation_view_header_layout">This is a BrainFuck Translator</string>
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="note_the_interpreter_ignores_input_and_supports_optimized_encoder_uses_a_2_cell_loop_technique_to_reduce_operations"><![CDATA[Note: The interpreter ignores \',\' input and supports > < + - . [ ]. Optimized encoder uses a 2-cell loop technique to reduce + operations.]]></string>
+    <string name="home">Home</string>
+    <string name="notes">Notes</string>
+    <string name="follow">Follow</string>
+    <string name="share">Share</string>
+    <string name="version">Version</string>
+    <string name="add_note">Add note</string>
+    <string name="todo">TODO</string>
+    <string name="title">Title</string>
+    <string name="write_your_note_here">Write your note here...</string>
+    <string name="save_note">🖋️ Save Note</string>
+    <string name="massage">Massage</string>
+    <string name="update_note">Update Note</string>
+    <string name="sample_title">Sample Title</string>
+    <string name="_12_jan_2025_11_30_am">12 Jan 2025 | 11:30 AM</string>
+    <string name="input">Input</string>
+    <string name="text_bf">Text → BF</string>
+    <string name="bf_text">BF → Text</string>
+    <string name="optimize_loop_based">Optimize (loop-based):</string>
+    <string name="convert">Convert</string>
+    <string name="output">Output</string>
+    <string name="clear">Clear</string>
+</resources>

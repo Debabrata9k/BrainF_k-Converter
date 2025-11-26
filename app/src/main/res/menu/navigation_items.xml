@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/optHome"
+        android:title="@string/home"
+        android:icon="@drawable/home"/>
+    <item
+        android:id="@+id/optNotes"
+        android:title="@string/notes"
+        android:icon="@drawable/note"/>
+    <item
+        android:id="@+id/optFollow"
+        android:title="@string/follow"
+        android:icon="@drawable/likes"/>
+    <item
+        android:id="@+id/optShare"
+        android:title="@string/share"
+        android:icon="@drawable/share"/>
+    <item
+        android:id="@+id/optVersion"
+        android:title="@string/version"
+        android:icon="@drawable/git_fork"/>
+
+</menu>

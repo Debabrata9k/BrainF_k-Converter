@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CEF7FF"
+    android:padding="20dp">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+
+        <EditText
+            android:id="@+id/editDetailTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:inputType="text"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:background="@drawable/edit_text_bg"
+            android:padding="10dp"
+            tools:ignore="LabelFor" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10sp"
+            android:background="@drawable/edit_text_bg">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/massage"
+                    android:layout_marginStart="15sp"
+                    android:layout_marginTop="15sp"
+                    android:layout_marginBottom="15sp"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:textSize="25sp"/>
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btnCopy"
+                    android:layout_width="25sp"
+                    android:layout_marginStart="170sp"
+                    android:layout_height="25sp"
+                    android:background="@drawable/baseline_content_copy_24"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#000000"/>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btnShare"
+                    android:layout_width="25sp"
+                    android:layout_height="25sp"
+                    android:background="@drawable/share__1_"
+                    android:layout_marginStart="10sp"
+                    android:layout_marginEnd="10sp"
+                    android:layout_marginTop="10sp"/>
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/editDetailContent"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:autofillHints=""
+                android:gravity="top"
+                android:inputType="textMultiLine"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textColor="#000000"
+                android:background="@drawable/edit_text"
+                android:layout_margin="10sp"
+                tools:ignore="LabelFor" />
+        </LinearLayout>
+
+
+
+
+
+
+        <Button
+            android:id="@+id/btnUpdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/update_note"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#85D9FF"
+            android:textColor="#000000" />
+
+
+    </LinearLayout>
+
+
+</ScrollView>
