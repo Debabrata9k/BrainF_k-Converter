@@ -10,7 +10,15 @@ Download the latest release here:
 
 👉 **[Download BrainF_k Converter APK](https://github.com/Debabrata9k/BrainF_k-Converter/releases/tag/latest/BrainF_k.Converter.apk)**
 
-(Replace the link above after you publish a release.)
+After installing APK:
+
+Settings → System → Languages & Input
+
+On-screen keyboard → Manage keyboards
+
+Enable BF Keyboard
+
+While typing: press ❖ keyboard icon → choose BF Keyboard
 
 ---
 
